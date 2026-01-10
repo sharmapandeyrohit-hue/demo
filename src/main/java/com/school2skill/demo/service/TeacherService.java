@@ -1,0 +1,21 @@
+package com.school2skill.demo.service;
+
+import com.school2skill.demo.Entity.Teacher;
+import com.school2skill.demo.Repository.TeacherRepository;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class TeacherService {
+
+    private final TeacherRepository teacherRepository;
+
+    public TeacherService(TeacherRepository teacherRepository) {
+        this.teacherRepository = teacherRepository;
+    }
+
+    public List<Teacher> getAllTeachers(){
+        return teacherRepository.findAll();
+    }
+}

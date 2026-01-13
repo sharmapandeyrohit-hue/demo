@@ -8,6 +8,7 @@ class SchoolManagementSystemApplicationTests {
 
 	@Test
 	void contextLoads() {
+//        System.out.println("SMS is under testing");
 	}
 
 }

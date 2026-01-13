@@ -1,9 +1,9 @@
 package com.school2skill.demo.runner;
 
-import com.school2skill.demo.Entity.Student;
-import com.school2skill.demo.Entity.Teacher;
-import com.school2skill.demo.Repository.StudentRepository;
-import com.school2skill.demo.Repository.TeacherRepository;
+import com.school2skill.demo.entity.Student;
+import com.school2skill.demo.entity.Teacher;
+import com.school2skill.demo.repository.StudentRepository;
+import com.school2skill.demo.repository.TeacherRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package com.school2skill.demo.Entity;
+package com.school2skill.demo.entity;
 
 import jakarta.persistence.*;
 
